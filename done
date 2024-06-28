@@ -1,0 +1,10 @@
+SELECT
+  courier_id,
+  sex,
+  birth_date
+FROM
+  couriers
+WHERE
+  birth_date is null
+ORDER BY
+  courier_id ASC
